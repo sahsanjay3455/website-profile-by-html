@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width: 110%;
+    height: 100vh;
+    background-image: url("sanjay.jpg");
+    background-position:center;
+    background-size:cover;
+
+
+}
+.navbar{
+    width:1200px;
+    height:80px;
+    margin:auto;
+
+
+}
+.icon{
+    width:200px;
+    float:left;
+    height:70px;
+}
+.logo{
+    color:#ff2700;
+    font-size:35px;
+    font-family: Arial;
+    float:left;
+    padding-left: 20px;
+    padding-top: 10x;
+}
+
+.menu{
+    width:400px;
+    float:left;
+    height: 70px;
+
+}
+ul{
+    float:left;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+ul li{
+    list-style:none;
+    margin-left:30px;
+}
+ul li a{
+    text-decoration: none;
+    color:aliceblue;
+    font-weight: bold;
+    transition: 0.4s ease;
+}
+ul li a:hover{
+color:#ff2700;
+}
+.search{
+    width:30px;
+    float:left;
+    margin-left:-10px;
+}
+.search:hover{
+    color:#ff2700;
+}
+.srch{
+    font-family:'times new roman';
+    width: 100px;
+    height:20px;
+    background:transparent;
+
+}
+.srch:hover{
+    color:#ff2700;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 20px;
+    background-color: #ff2700;
+}
+.content{
+display:flex;
+    width:-auto;
+    height:auto;
+    margin:left;
+    color:aliceblue;
+    position:left;
+}
+.content:hover{
+    color: #ff2700;
+}
+.form input{
+    width:150px;
+    height:35px;
+    background:transparent;
+    border-bottom:1px solid #ff2700;
+    border-top-left-radius: 5px;
+    color:aliceblue;
+    font-size:15px;
+    font-family:sans-serif;
+}
+.form input:focus
+{
+    outline:none;
+}
+::placeholder{
+    color: #000;;
+}
+.btm{
+    width:auto;
+    background-color: darkkhaki;
+}
+
+.btm a{
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+}
+
+.form .link{
+    font-size: 15px;
+    font-family: Arial;
+    padding-top: 10px;
+    
+}
